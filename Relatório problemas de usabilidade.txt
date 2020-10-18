@@ -1,0 +1,16 @@
+SELEÇÃO DOS CRITÓRIOS ERGONÔMICOS DE USABILIDADE
+
+• 5 Leitura de Cor: a interface trabalho não oferece um nível de contraste adequado quando se
+coloca em conta principalmente alguns dispositivos com o brilho mais baixo.
+
+• 6 Capacidade de Leitura: a interface trabalho não oferece um design consistente quanto à questão
+do título estar em um alinhamento diferente do texto.
+
+• 11 Controle do usuário: A interface trabalho não possibilita que o usuário volte à interface Home.
+
+• 12 Flexibilidade: Não há design responsivo que se adapta para cada dispositivo, sendo
+prejudicado a experiência do usuário que usar uma tela de resolução menor.
+
+• 17 Consistência: Não há manutenção de um design similar entre os trabalhos e a página home,
+exs: · o menu da interface trabalho não se parece nada com o menu da interface home,
+     · o esquema de cores é totalmente diferente
