@@ -1,0 +1,113 @@
+html {
+    font-family: "helvetica neue", sans-serif;
+}
+
+/* Imagens */
+.logo {
+    margin: 0px;
+    padding: 0px;
+    width: 50px;
+    resize: none;
+    /*flex: 0.04 1 0px;*/
+    /*flex-basis: 0;*/
+}
+
+/* Textos */
+.titulo1{
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.titulo2{
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.titulo3{
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: black;
+}
+.titulo4{
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: black;
+}
+    @media(max-width: 900px){ /* Device: tablet */
+        .titulo1{
+            font-size: 170%;
+        }
+        .titulo2{
+            font-size: 100%;
+        }
+        .titulo3{
+            font-size: 100%;
+        }
+        .titulo4{
+            font-size: 100%;
+        }
+    }
+    @media(max-width: 530px){ /* Device: mobile */
+        .titulo1{
+            font-size: 130%;
+        }
+        .titulo2{
+            font-size: 90%;
+        }
+        .titulo3{
+            font-size: 90%;
+        }
+        .titulo4{
+            font-size: 100%;
+        }
+    }
+.paragrafo {
+    text-indent: 50px;
+}
+.texto{
+    text-indent: 50px;
+}
+
+.home-button{
+    align-self: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+/* Partes */
+header {
+    width: auto;
+    height: auto;
+    background-color: gray;
+}
+
+footer{
+    background: #f5d5fe;
+    padding: 5px;    
+    margin: 2px 0;
+    color: #000000;
+    height: 200px;
+
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Posicionamentos */
+.push {
+    margin-left: auto;
+    margin-right: 10px;
+}
+.centralizado{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}

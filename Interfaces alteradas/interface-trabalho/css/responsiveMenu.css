@@ -1,0 +1,86 @@
+/*html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+html {
+    font-family: "helvetica neue", sans-serif;
+}*/
+
+
+.menu{
+    margin: 0 20px 0 0;
+    
+    
+    /*width: 10%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -4px;*/
+}
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: gray;
+    /*margin: 0 10px;*/
+    line-height: 30px;
+}
+
+.nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu span {
+    color: #54D17A;
+}
+
+/* Tirando o display do botão menu hamburgues */
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 130px;
+}
+#toggle {
+    display: none;
+}
+/* Media Quarry para o CSS detectar quando abrir e fechar o menu*/
+@media only screen and (max-width: 900px){
+    label {
+        display: block;
+        cursor: pointer; /* Colocar o cursor sobre a label fará ele virar uma "mãozinha"*/
+        /*background-color: red;*/
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a{
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        position: relative;
+        background-color: white;
+        margin: 0;
+    }
+    
+    #toggle:checked + .menu {
+        display: block;
+    }
+    .tituloMenu{
+        display: none;
+    }
+    .nav {
+        border-bottom: 1px solid #EAEAEB;
+        text-align: right;
+        height: 70px;
+        line-height: 30px;
+        padding: 0;
+    }
+}
