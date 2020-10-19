@@ -1,0 +1,11 @@
+1. 
+• O que foi feito: O frameset foi desfragmentado.
+• Explicação: O arquivo original era formado por um frameset, que juntava vários arquivos HTML em um
+com inteção de fazer um menu só para várias páginas. Como no trabalho apresentado aqui vou
+usar apenas uma página de trabalho, não usarei frameset.
+
+2.
+• O que foi feito: Troquei os caracteres incompatíveis do body como "�"
+• Explicação: dentro da lógica de usar frames htmls esses caracteres eram formatados automaticamente
+para ser apresentável, como eu desfragmentei o frameset, o jeito mais rápido que encontrei foi
+trocar todos caracteres inválidos por válidos.
