@@ -13,7 +13,7 @@ body * {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 20px;
+    padding: 0 0px;
     
 }
     @media (min-width: 1170px){ /* Criado para responder com resoluções maiores que 1170px*/
@@ -28,7 +28,7 @@ body * {
     margin-left: -5px;
     margin-right: -5px;
 }
-    /* Garante que o conteúdo da linha não ultrapasse o tamanho da mesma min 10:30*/
+    /* Garante que o conteúdo da linha não ultrapasse o tamanho da mesma*/
     .row:before,
     .row:after {
         content: "";
@@ -75,17 +75,16 @@ body * {
     }
 
     /* Sidebar */
-    @media(min-width: 992px){ /* Media Quarry para computadores */
+    @media(min-width: 900px){ /* Media Quarry para computadores */
         .col-content {
-            width: 60%;
+            width: 77%;
         }
 
         .col-sidebar {
-            width: 40%;
+            width: 23%;
         }
     }
     
-
 
 /* USAR APENAS PARA DEMONSTRAÇÃO */
 .teste{
@@ -96,5 +95,5 @@ body * {
     color: #fff;
 }
 .big {
-    height: auto;
+    height: 90px;
 }
