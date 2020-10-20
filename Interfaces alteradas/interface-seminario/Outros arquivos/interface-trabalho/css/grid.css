@@ -1,0 +1,101 @@
+/* reset do padding e margin básico */
+body * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    
+}
+
+/* conteiner */
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0px;
+    border: 0;
+    background-color: #dcefff;
+    
+}
+    @media (min-width: 1170px){ /* Criado para responder com resoluções maiores que 1170px*/
+        .container {
+            max-width: 1170px;
+            padding: 0;
+        }
+    }
+
+/* linha */
+.row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+    /* Garante que o conteúdo da linha não ultrapasse o tamanho da mesma*/
+    .row:before,
+    .row:after {
+        content: "";
+        display: table;
+    }
+    .row:after {
+        clear: both;
+    }
+
+
+/* colunas */
+
+.col {
+    /* Os elementos vão flutuar para esquerda, como um float */
+    display: inline-block;
+
+    /* Só que diferente que o float, o elemento se for maior que o outro continuará flutuando */
+    vertical-align: top;
+
+    min-height: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%; /* Tamanho 100% dentro da div que está inserido */
+    margin-right: -4px;
+
+
+    /* Suporte a navegadores antigos */
+    *zoom: 1;
+    *display: inline;
+}
+    /* O usuário tem que estar em uma tela com no mínimo de 480 para acontecer a separação em duas colunas */
+    @media(min-width: 480px){ /* Media Quarry para mobile */
+        /* Duas colunas */
+        .col-2{
+            width: 50%;
+        }
+    }
+
+    @media(min-width: 728px){ /* Media Quarry para tablet */
+        /* Três colunas */
+        .col-3{
+            width: 33.3333%;
+        }
+    }
+
+    /* Sidebar */
+    @media(min-width: 900px){ /* Media Quarry para computadores */
+        .col-content {
+            width: 77%;
+        }
+
+        .col-sidebar {
+            width: 23%;
+        }
+    }
+    
+
+/* USAR APENAS PARA DEMONSTRAÇÃO */
+.teste{
+    background: #f5d5fe;
+    padding: 5x;
+    text-align: center;
+    margin: 2px 0;
+    color: #fff;
+}
+.big {
+    height: 90px;
+}

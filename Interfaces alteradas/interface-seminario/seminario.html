@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho sobre Redes Sem Fio IEEE 802.11</title>
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/flexboxContainer.css">
+    <link rel="stylesheet" href="css/responsiveMenu.css">
+</head>
+<body>
+
+    <div class="container">
+
+    <!-- Header -->
+    <header class="row">
+        <div class="col">
+            <div class="flexbox-container">
+              <img class="logo flexbox-item" src="images/minerva_transparente.gif" alt="logo UFRJ">
+              <h1 class="flexbox-item titulo1">UFRJ-GTA</h1>
+              <a class="push home-button" href="../interface-home/Ensino.html">Home</a>
+            </div>
+            <hr>
+            <h1 class="titulo1">REDES 802.11 (Camada de Enlace) </h1>
+            <h3 class="titulo2">Redes locais sem fio que atendem ao ao padrão IEEE 802.11</h3>
+            <h3 class="titulo3">Autor: Luis Guilherme Uzeda Garcia</h3>
+            
+        </div>
+    </header>
+
+    <!-- MENU NAVEGAÇÃO DENTRO DO SITE -->
+
+    <div class="row">
+        <div class="col">
+            <div class="nav">
+                <!-- Ícone "hamburguer" pro menu -->
+                <label for="toggle">Seminários &#9776;</label>
+                <!-- Esse checkbox é usado para deixar o menu clicável apenas com html-->
+                <input type="checkbox" id="toggle"/>
+                <div class="menu">
+                    <a href="../interface-home/Ensino.html">Home</a>
+                    <a href="https://www.gta.ufrj.br/equipe/">Equipe</a>
+                    <a href="https://www.gta.ufrj.br/pesquisa/">Pesquisa</a>
+                    <a href="https://www.gta.ufrj.br/publicacoes/">Publicações</a>
+                    <a href="#"><span>Seminários</span></a>
+                    <a href="https://www.gta.ufrj.br/projetos">Projetos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="tituloSeminarios">
+        <h1 class="titulo2">Seminários</h1>
+    </div>
+    <div class="testeSite"></div>
+
+
+    <script>
+        var botao = document.getElementById("proximaPag")
+        botao.onclick = abrirJanela
+        function abrirJanela(){
+            window.open("https://www.gta.ufrj.br/grad/01_2/802-mac/R802_11-2.htm", "_self")
+        }
+    </script>
+
+    
+
+<footer class="col">
+    <div class="centralizado">
+        <h3 class="titulo2">GTA-UFRJ</h3>
+        <p>2020</p><br>
+        <h3 class="titulo2">SEMINARIOS</h3>
+        
+        
+    </div>
+</footer>
+</body>
+</html>
