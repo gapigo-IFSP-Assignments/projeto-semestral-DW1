@@ -8,10 +8,10 @@ html {
     font-family: "helvetica neue", sans-serif;
 }*/
 
-
 .menu{
     margin: 0 20px 0 0;
-    
+    border: 1px solid #2a4269;
+    background: #fff;
     
     /*width: 10%;
     display: inline-block;
@@ -28,7 +28,7 @@ html {
 
 .nav ul{
     margin: 0px;
-    padding: 0px;
+    padding: 4px;
 }
 
 .menu li {
@@ -36,16 +36,21 @@ html {
 }
 
 .menu span {
-    color: #54D17A;
+    color: #54aed1;
 }
 
 /* Tirando o display do botão menu hamburgues */
 label {
-    margin: 0 40px 0 0;
+    margin: 0 40px 0 4px;
     font-size: 26px;
-    line-height: 70px;
+    line-height: 40px;
     display: none;
     width: 130px;
+}
+/* O título do menu muda para cor azulada quando está no modo desktop */
+.tituloMenu{
+    color:#2a4269;
+    border-bottom: 1px solid #2a4269;
 }
 #toggle {
     display: none;
@@ -61,6 +66,7 @@ label {
         text-align: center;
         width: 100%;
         display: none;
+        border: 0px;
     }
     .menu a{
         display: block;
@@ -77,10 +83,9 @@ label {
         display: none;
     }
     .nav {
-        border-bottom: 1px solid #EAEAEB;
-        text-align: right;
+        border-bottom: 1px solid #2a4269;
         height: 70px;
         line-height: 30px;
-        padding: 0;
+        padding: 0px;
     }
 }
