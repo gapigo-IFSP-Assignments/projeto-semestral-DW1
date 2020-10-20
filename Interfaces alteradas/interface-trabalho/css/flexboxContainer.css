@@ -1,7 +1,6 @@
 .flexbox-container {
     /*height: 900px;*/
     display: flex;
-    background-color: yellow;
 
     /* Alinha os elementos no centro */
     /*justify-content: center;*/
@@ -39,35 +38,6 @@
 /* Para explicação apenas */
 .flexbox-item-demonstration {
     min-height: 100px;
-
-    /* Força que o conteúdo não seja redimensionado */
-    /*flex-shrink: 0;*/
-
-    /* Expande o bloco com uma proporção 1 */
-    /*flex-grow: 1;*/
-
-    /* Expande o bloco com uma proporção 2 */
-    /*flex-grow: 2;*/
-
-    /* Reseta o valor definido da div */
-    /*flex-basis: 0;*/
-
-    /* Alinha o elemento, só que quando faz isso o objeto assume a medida original dele
-     * não a que o flexbox deu pra ele */
-    /*align-self: center;*/
-    /*align-self: flex-end;*/
-
-    /* Para ordenação de elementos, coloque o número nos 
-    elementos flexbox que vc quer ordenar que o flexbox irá
-    organizar fugindo da ordem do html.
-    CONTRA-INDICADO: BAGUNÇA A HIERARQUIA DA ÁRVORE DOM */
-    /*order: 1;*/
-    /*order: 2;*/
-    /*order: 3;*/
-
-    /* Proporção(flex-grow), shrink? (0/1), flex-basis*/
-    /*flex: 1 0 0px;*/
-    
 }
 
 /* Itens individuais */
@@ -75,14 +45,11 @@
     align-self: center;
 }
 
-
-
 .flexbox-item {
     margin: 5px;
     justify-content: center;
     align-content: center;
 }
-
 
 /* Para testes */
 .flexbox-item-1 {

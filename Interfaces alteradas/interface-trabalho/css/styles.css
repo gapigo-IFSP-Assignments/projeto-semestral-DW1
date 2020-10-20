@@ -2,6 +2,10 @@ html {
     font-family: "helvetica neue", sans-serif;
 }
 
+body{
+    background-color: #151a22;
+}
+
 /* Imagens */
 .logo {
     margin: 0px;
@@ -12,28 +16,31 @@ html {
     /*flex-basis: 0;*/
 }
 
+img.proximaPag{
+    margin: 0px;
+    padding: 0px;
+    width: 25px;
+    resize: none;
+}
+
 /* Textos */
 .titulo1{
     align-self: center;
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
 }
 .titulo2{
     align-self: center;
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
 }
 .titulo3{
     align-self: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
-    color: black;
 }
 .titulo4{
     align-self: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
-    color: black;
 }
     @media(max-width: 900px){ /* Device: tablet */
         .titulo1{
@@ -75,27 +82,51 @@ html {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    color: black;
+    color: #6bf5ff;
+}
+
+h3.proximaPag{
+    text-decoration: solid;
+    font-weight: bold;
+    color: #2a4269;
+    line-height: 70px;
 }
 
 /* Partes */
-header {
+header { 
     width: auto;
-    height: auto;
-    background-color: gray;
+    /*height: 150px;*/
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding: 2px;
+    border: 0px;
+    margin-bottom: 30px;
+    background-color: #2a4269;
+    color:#f1f1f1;
 }
 
+
 footer{
-    background: #f5d5fe;
+    background: #2a4269;
     padding: 5px;    
     margin: 2px 0;
-    color: #000000;
+    color: #aad2ff;
     height: 200px;
 
     position: relative;
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+#proximaPag{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+    cursor: pointer;
 }
 
 /* Posicionamentos */
