@@ -1,0 +1,65 @@
+.flexbox-container {
+    /*height: 900px;*/
+    display: flex;
+
+    /* Alinha os elementos no centro */
+    /*justify-content: center;*/
+
+    /* Alinha os elementos com um espaço proporcional entre eles*/
+    /*justify-content: space-between;*/
+
+    /* Faz o mesmo da anterior mantendo uma margem entre a borda do container que estão dentro*/
+    /*justify-content: space-around;*/
+
+    /* Alinha os itens com o topo */
+    /*align-items: flex-start;*/
+
+    /* Alinha os itens no centro */
+    /*align-items: center;*/
+    
+
+    /* Joga os itens pra próxima linha caso eles passem o tamanho da tela*/
+    /*flex-wrap: wrap;*/
+
+    /* Quando o programa joga a linha para baixo, o align-content é pra alinhar
+    o conteúdo das "linhas" */
+    /*align-content: center;*/
+    /*align-content: flex-end;*/
+    /*align-content: flex-start;*/
+    /*align-content: space-between;*/
+
+    /* Alinha os elementos do container como coluna */
+    /*flex-direction: column;*/
+
+    
+}
+
+
+/* Para explicação apenas */
+.flexbox-item-demonstration {
+    min-height: 100px;
+}
+
+/* Itens individuais */
+#nomeInstituicao {
+    align-self: center;
+}
+
+.flexbox-item {
+    margin: 5px;
+    justify-content: center;
+    align-content: center;
+}
+
+/* Para testes */
+.flexbox-item-1 {
+    min-height: 100px;
+}
+
+.flexbox-item-2 {
+    min-height: 200px;
+}
+
+.flexbox-item-3 {
+    min-height: 300px;
+}
