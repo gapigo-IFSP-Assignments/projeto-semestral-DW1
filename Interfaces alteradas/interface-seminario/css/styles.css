@@ -86,23 +86,57 @@ footer{
     align-items: center;
 }
 
-#tituloSeminarios{
+#tituloInterface{
+    display: flex;
     height: 100px;
     background-color: chocolate;
-    position: relative;
+    margin-bottom: 20px;
 }
 
-#tituloSeminarios h1{
-    position:absolute;                  
-    bottom:0;
-    left:0;
+#tituloInterface h1{
     margin: 10px;
+    align-self: flex-end;
+    
 }
-
 
 .testeSite{
     height: 1200px;
 }
+
+/* SEMINÁRIOS */
+div.seminario{
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 80%;
+}
+
+div.tituloSeminario{
+    min-height: 80px;
+    display: flex;
+    background-color: yellow;
+}
+
+div.tituloSeminario p{
+    align-self: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.informacoesSeminario{
+    background-color: green;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+div.informacoesSeminario p {
+    align-self: left;
+}
+
+
 
 /* Posicionamentos */
 .push {
