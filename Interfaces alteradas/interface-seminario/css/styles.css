@@ -1,3 +1,6 @@
+/* Esse é o CSS principal que altera qualquer outro elemento que
+   não é alterado nos outros CSS                                    */
+
 html {
     font-family: "helvetica neue", sans-serif;
 }

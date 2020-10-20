@@ -1,0 +1,14 @@
+/* Esse CSS altera a div de baixo do header, onde tem o logo
+   e o menu para outros sites */
+
+/* Segunda div principal do Header*/
+div.segundaDiv{
+    height: 900px;
+}
+
+div.segundaDiv img{
+    margin: 0px;
+    padding: 0px;
+    width: 50px;
+    resize: none;
+}
