@@ -109,13 +109,15 @@ div.seminario{
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    width: 80%;
+    width: 94%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 div.tituloSeminario{
     min-height: 80px;
     display: flex;
     background-color: yellow;
+    border: 2px solid gray;
 }
 
 div.tituloSeminario p{
@@ -124,16 +126,37 @@ div.tituloSeminario p{
     padding-right: 10px;
 }
 
+div.tituloSeminario p a{
+    font-size: 18px;
+}
+
+div.tituloSeminario p a:link{
+    color: lightskyblue;
+}
+div.tituloSeminario p a:visited{
+    color: blue;
+}
+div.tituloSeminario p a:hover{
+    color: blueviolet;
+}
+
 div.informacoesSeminario{
     background-color: green;
     min-height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    border: 2px solid black;
 }
 
 div.informacoesSeminario p {
     align-self: left;
+    padding: 5px;
+}
+
+div.informacoesSeminario p span.firstWord{
+    font-weight: bold;
+    color: orange;
 }
 
 
