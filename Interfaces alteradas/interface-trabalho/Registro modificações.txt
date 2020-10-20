@@ -9,3 +9,37 @@ usar apenas uma página de trabalho, não usarei frameset.
 • Explicação: dentro da lógica de usar frames htmls esses caracteres eram formatados automaticamente
 para ser apresentável, como eu desfragmentei o frameset, o jeito mais rápido que encontrei foi
 trocar todos caracteres inválidos por válidos.
+
+3.
+• O que foi feito: Adição do Header
+• Explicação: O Header é formado por 2 principais partes: um container flexbox em cima e sua lógica
+está dentro do arquivo "flexboxContainer.css", a parte de baixo teve uma lógica para mobile adicionada
+dentro do "style.css"
+
+4. 
+• O que foi feito: Adição do menu "tópicos"
+• Explicação: Foi o mais difícil, pois eu tinha que juntar a lógica de dois templates em uma só:
+um menu que abre "sidebar" quando o usuário é detectado estar no desktop e um menu que abre para
+baixo em cascata.
+
+5. 
+• O que foi feito: Arrumação do texto principal no lugar
+• Explicação: Após configurar uma lógica pro sidebar e ajustar certinho nos 2 documentos css
+("grid.css", "responsiveMenu.css") um número fixo para ambos alterarem juntos, eu encaixei o texto
+configurando um tamanho agradável para o texto caber
+
+6.
+• O que foi feito: Adição do footer
+• Explicação: Oferecer ao usuário uma paginação do lugar que ele está no trabalho e informações
+do título.
+
+7. 
+• O que foi feito: Arrumado o esquema de cores
+• Explicação: A intenção foi deixar um esquema de cores simples, mas elegante, que fornece ao usuário
+conforto ao ler o conteúdo e a cor azul foi optada para se aproximar do esquema de cores da interface
+"home" original
+
+8.
+• O que foi feito: Adicionado um botão "próxima página"
+• Explicação: A lógica clicável do botão é feita por JS, a div que o botão se encontra é toda 
+selecionada pelo Java Script e quando o usuário clica uma função com um window.open(url) é ativada.
