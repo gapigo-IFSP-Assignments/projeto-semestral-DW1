@@ -5,23 +5,23 @@ Feito por um aluno só: Gabriel Pinheiro Brants Gonçalves sp3013456
 
 # MAPA DO TRABALHO:
 • Interfaces alteradas
-	→ Aqui está o cerne do trabalho: o conteúdo que foi modificado
+        → Aqui está o cerne do trabalho: o conteúdo que foi modificado
 
 • Interfaces originais
-	→ As interfaces do jeito que estão na web, dentro dessa pasta há o link delas
+        → As interfaces do jeito que estão na web, dentro dessa pasta há o link delas
 
 • Templates
-	→ Documentos pegos de tutoriais de CSS para enriquecimento do meu layout
-	→ Nota: nenhum layout pronto foi usado inteiramente, houve bastante modificação em todos
+        → Documentos pegos de tutoriais de CSS para enriquecimento do meu layout
+        → Nota: nenhum layout pronto foi usado inteiramente, houve bastante modificação em todos
 	para conseguir comportar com a estrutura do site modificado.
 
 • Wireframes
-	→ Os wireframes originais (há uma cópia dentro do relatório) e outras informações de como fiz.
+        → Os wireframes originais (há uma cópia dentro do relatório) e outras informações de como fiz.
 
 · "RELATÓRIO DE CRITÉRIOS ERGONÔMICOS DE USABILIDADE.docx"
-	→ Relatório completo dos critérios ergonômicos
+        → Relatório completo dos critérios ergonômicos
 · "Relatório problemas de usabilidade.txt"
-	→ Versão sucinta dos critérios ergonômicos, com apenas os problemas de usabilidade do site
+        → Versão sucinta dos critérios ergonômicos, com apenas os problemas de usabilidade do site
 
 # SUGESTÃO DE ORDEM DE CORREÇÃO
 1. Interface trabalho
