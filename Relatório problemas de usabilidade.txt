@@ -1,4 +1,6 @@
-SELEÇÃO DOS CRITÓRIOS ERGONÔMICOS DE USABILIDADE
+SELEÇÃO DOS CRITÉRIOS ERGONÔMICOS DE USABILIDADE
+
+• 3 Agrupamento e distinção por formato: o esquema de cores da interface-trabalho original não tinha uma lógica de cores bem definida no agrupamento.
 
 • 5 Leitura de Cor: a interface trabalho não oferece um nível de contraste adequado quando se
 coloca em conta principalmente alguns dispositivos com o brilho mais baixo.
@@ -14,3 +16,5 @@ prejudicado a experiência do usuário que usar uma tela de resolução menor.
 • 17 Consistência: Não há manutenção de um design similar entre os trabalhos e a página home,
 exs: · o menu da interface trabalho não se parece nada com o menu da interface home,
      · o esquema de cores é totalmente diferente
+
+• 22 e 23 Navegação visível: os menus das interfaces não oferecem ao usuário uma experiência clara de navegação, por exemplo, na interface trabalho não existe botão home.

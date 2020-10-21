@@ -24,6 +24,7 @@ html {
     clear: right;
     text-decoration: none;
     color: gray;
+    font-size: 22px;
     margin: 0 10px;
     line-height: 40px;
 }
@@ -46,7 +47,7 @@ label {
     display: none;
 }
 /* Media Quarry para o CSS detectar quando abrir e fechar o menu*/
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 700px){
     label {
         display: block;
         cursor: pointer; /* Colocar o cursor sobre a label fara ele virar uma "mãozinha"*/

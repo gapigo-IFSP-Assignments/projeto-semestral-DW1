@@ -2,3 +2,32 @@
 • O que foi feito: Adaptação da interface-seminario
 • Explicação: Aproveitou-se que a interface-seminario é muito parecida com a interface-home, então
 todos os códigos CSS e o esqueleto HTML foi copiado e adaptado para interface-home.
+
+2.
+• O que foi feito: Adição da div "Ensino"
+• Explicação: a div ensino é uma parte que cita como é feito o ensino dentro dos estabelecimentos da
+GTA-UFRJ. Foi aproveitado a div "título-de-interface" da interface-seminários.
+
+3.
+• O que foi feito: Adição de listas disciplinas
+• Explicação: tive que fazer a lista do zero (sem ctrl c ctrl v de código), copiando do site original.
+Depois disso adicionei as listas dentro de um elemento div que tem o display de flexbox. Com a
+utilização de media quarrys o layout foi adaptado para ser responsivo a resoluções menores
+
+4.
+• O que foi feito: Adição do esqueleto do formulário
+• Explicação: eu já deixei o esqueleto do formulário pronto para quando o formulário real for ser feito.
+A ideia de layout aqui é colocar cada parte do formulário dentro de containers flexboxs para
+flexibilização do layout.
+
+5.
+• O que foi feito: Adição do formulário
+• Explicação: foi feito uma adaptação do template "caixa.css" para dentro das conformidades do site.
+A lógica do layout por trás é: 2 containers de flexbox, 1 container contendo as caixas de input e
+1 container contendo o ícone e o outro das caixas.
+
+6.
+• O que foi feito: Adição de Java Script para lógica do formulário
+• Explicação: O script captura os valores de todas as chaves, ele confere de alguma ficou vazia,
+se ficou, ele foca na caixa que está errada e pede pro usuário informar corretamente, após concluir,
+o programa avisa que o usuário enviou seus dados e dá um reload na página.

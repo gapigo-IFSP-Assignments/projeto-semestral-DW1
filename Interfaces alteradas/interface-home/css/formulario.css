@@ -25,9 +25,66 @@ div.formulario hr{ /* Linha de divisão */
 }
 
 /* Aba dados Pessoais */
-div.dadosPessoais{
+div.coletagemDados{
     display: flex;
+    justify-content: left;
+    margin: 20px;
+    margin-left: 1px;
 }
+
+div.caixasDados{
+    /*background-color: red;*/
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+
+
+
+div.coletagemDados img{
+    
+}
+
+div.entrada{
+    /*background-color: red;*/
+    margin-left: 20px;
+    width: 200px;
+    /*display: flex;*/
+}
+/* Quando o dispositivo fica menor que 520px */
+@media(max-width: 520px){
+    div.entrada{
+        width: 100%;
+    }
+    /*div.coletagemDados input{
+        width: 140%;
+    }*/
+}
+div.entrada p{
+    margin: 0;
+
+    font-size: 12px;
+}
+
+/* Botão submit */
+input[type=submit]{
+    padding: 15px 45px;
+    background-color: #2a4269;
+    color: #cfe1fd;
+    font-size:30px;
+    font-weight: bold;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+input[type=submit]:hover{
+    background-color: #769ad3;
+    color: #192538;
+}
+
 
 
 /* Imagens */
