@@ -3,7 +3,7 @@ Projeto semestral de Desenvolvimento Web 1 de ADS-IFSP
 
 Feito por um aluno só: Gabriel Pinheiro Brants Gonçalves sp3013456
 
-MAPA DO TRABALHO:
+# MAPA DO TRABALHO:
 • Interfaces alteradas
 	→ Aqui está o cerne do trabalho: o conteúdo que foi modificado
 
@@ -23,7 +23,7 @@ MAPA DO TRABALHO:
 · "Relatório problemas de usabilidade.txt"
 	→ Versão sucinta dos critérios ergonômicos, com apenas os problemas de usabilidade do site
 
-SUGESTÃO DE ORDEM DE CORREÇÃO
+# SUGESTÃO DE ORDEM DE CORREÇÃO
 1. Interface trabalho
 2. Interface home
 3. Interface seminário
@@ -33,7 +33,7 @@ comunica com a home, e uma vez dentro da home ou da seminário, não é possíve
 trabalho (o site original colocou o link para o trabalho dentro de outra interface que não foi
 trabalhada pelo aluno)
 
-NOTA DO ALUNO
+# NOTA DO ALUNO
 
 → Professora, eu não adicionei uma seleção de gêneros na interface trabalho e nem algum vídeo ou gif
 porque não deu tempo, hoje (na hora que escrevo é quarta-feira 06:27) eu tenho um exame um pouco
