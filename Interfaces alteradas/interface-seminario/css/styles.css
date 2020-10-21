@@ -53,7 +53,7 @@ img.proximaPag{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    color: #6bf5ff;
+    color: #bdd6ff;
 }
 
 h3.proximaPag{
@@ -76,6 +76,9 @@ header {
     color:#f1f1f1;
 }
 
+header h1{
+    color: #bdd6ff;
+}
 
 footer{
     background: #2a4269;
@@ -83,6 +86,7 @@ footer{
     margin: 2px 0;
     color: #aad2ff;
     height: 200px;
+    margin-top: 30px;
 
     position: relative;
     text-align: center;
@@ -93,13 +97,14 @@ footer{
 #tituloInterface{
     display: flex;
     height: 100px;
-    background-color: chocolate;
+    background-color: #2a4269;
     margin-bottom: 20px;
 }
 
 #tituloInterface h1{
     margin: 10px;
     align-self: flex-end;
+    color: #bdd6ff;
     
 }
 
@@ -124,8 +129,8 @@ div.seminario{
 div.tituloSeminario{
     min-height: 80px;
     display: flex;
-    background-color: yellow;
-    border: 2px solid gray;
+    background-color: #69bde7;
+    /*border: 2px solid gray;*/
 }
 
 div.tituloSeminario p{
@@ -136,35 +141,37 @@ div.tituloSeminario p{
 
 div.tituloSeminario p a{
     font-size: 18px;
+    text-decoration: none;
 }
 
 div.tituloSeminario p a:link{
-    color: lightskyblue;
+    color: #2a4269;
 }
 div.tituloSeminario p a:visited{
-    color: blue;
+    color: rgb(68, 0, 255);
 }
 div.tituloSeminario p a:hover{
-    color: blueviolet;
+    color: rgb(0, 120, 141);
 }
 
 div.informacoesSeminario{
-    background-color: green;
+    background-color: #50a9d6;
     min-height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border: 2px solid black;
+    border-top: 1px solid #3183ac;
 }
 
 div.informacoesSeminario p {
     align-self: left;
     padding: 5px;
+    color: #e4f3fb;
 }
 
 div.informacoesSeminario p span.firstWord{
     font-weight: bold;
-    color: orange;
+    color: #2a4269;
 }
 
 
