@@ -22,7 +22,7 @@ div.menuHeader{
 }
 
 div.elementoMenu{
-    background-color: red;
+    background-color: #6f7e9788;
     width: 70px;
     height: 40px;
     align-self: flex-end;

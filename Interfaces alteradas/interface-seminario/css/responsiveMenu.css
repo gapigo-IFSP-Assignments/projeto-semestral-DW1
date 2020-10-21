@@ -29,7 +29,7 @@ html {
 }
 
 .menu span {
-    color: #54D17A;
+    color: #54aed1;
 }
 
 /* Tirando o display do botão menu hamburgues */
@@ -40,6 +40,7 @@ label {
     display: none;
     width: 200px;
     float: right;
+    color: #2a4269;
 }
 #toggle {
     display: none;
