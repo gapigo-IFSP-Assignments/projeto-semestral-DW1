@@ -1,0 +1,40 @@
+/* CSS separado apenas para editar a parte do formulário */
+
+
+/* Informações do título e do formulário todo */
+div.formulario{
+    /*background-color: red;*/
+}
+
+figure#tituloFormulario{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+figure#tituloFormulario figcaption{
+    line-height: 50px;
+    margin-right: 20px;
+    font-size: 160%;
+    color: #2a4269;
+}
+
+div.formulario hr{ /* Linha de divisão */
+    background-color: #2a4269;
+    border: none;
+    height: 1px;
+}
+
+/* Aba dados Pessoais */
+div.dadosPessoais{
+    display: flex;
+}
+
+
+/* Imagens */
+div.formulario img{
+    height: 50px;
+}
+
+div.formulario img.class{
+    height: 50px;
+}

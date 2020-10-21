@@ -110,7 +110,7 @@ footer{
 
 #explicacaoEnsino h1{
     color: #bdd6ff;
-    
+    margin-bottom: 10px;
 }
 
 #explicacaoEnsino p{
@@ -120,6 +120,68 @@ footer{
 .testeSite{
     height: 1200px;
 }
+
+/* Disciplinas */
+div#disciplinas{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 40px
+}
+
+div#disciplinas div{
+    background-color: #e4f3fb;
+    border: 1px solid #2a4269;
+    min-width: 40%;
+    flex-shrink: 0;
+    padding: 5px;
+    padding-left: 15px;
+
+}
+@media (max-width:1137px){ /* Para tablets, mobile ou computadores de resolução menor */
+    div#disciplinas div{
+    margin-top: 40px;
+    width: 90%;
+    }
+
+    /* Apenas para fazer uma diferença com as divs de "disciplinas e quando o usuário estiver
+       no modo mobile o espaço entre "ensino e disciplinas" não fica tão grande "*/
+    #explicacaoEnsino{
+        margin-bottom: -20px;
+    }
+}
+
+div#graduacao{
+
+}
+
+div#posgraduacao{
+
+}
+div#disciplinas h2{
+    margin-bottom: 10px;
+    color: #2a4269;
+}
+div#disciplinas ul{
+    /*background-color: yellow;*/
+    list-style-type: '• ';
+    /*list-style-image: url('images/seta.png');*/
+}
+
+div#disciplinas li{
+    color: #2a4269;
+}
+
+div#disciplinas li a:link{
+    color: #2a4269;
+}
+div#disciplinas li a:visited{
+    color: rgb(68, 0, 255);
+}
+div#disciplinas li a:hover{
+    color: rgb(0, 120, 141);
+}
+
 
 /* Posicionamentos */
 .push {

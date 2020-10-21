@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/flexboxContainer.css">
     <link rel="stylesheet" href="css/responsiveMenu.css">
     <link rel="stylesheet" href="css/menuHeader.css">
+    <link rel="stylesheet" href="css/formulario.css">
 </head>
 <body>
 
@@ -17,13 +18,15 @@
     <!-- Header -->
     <header class="row">
         <div class="col">
+            <!-- Primeira div -->
             <div class="flexbox-container">
               <img class="logo flexbox-item" src="images/minerva_transparente.gif" alt="logo UFRJ">
               <h1 class="flexbox-item titulo1">UFRJ-GTA</h1>
-              <a class="push home-button" href="../interface-home/Ensino.html">Home</a>
+              <a class="push home-button" href="#">Home</a>
             </div>
             <hr>
             
+            <!-- Segunda div (logo UFRJ-GTA e menu ) -->
             <div class="segundaDiv">
                 <img src="images/logo2.jpg" alt="logo do site">
 
@@ -61,10 +64,7 @@
                         window.open("https://ufrj.br/", "_blank")
                     }
                 </script>
-                
-
             </div>
-            
         </div>
     </header>
 
@@ -107,29 +107,128 @@
             </div>
         </div>
     </div>
-    
-
-
+ 
     <!-- Disciplinas -->
-    <div id="disciplinas">
-        <div id="graducao">
-
-        </div>
-        <div id="posgraducao">
-
+    <div class="row">
+        <div class="col">
+            <div id="disciplinas">
+                <div id="graduacao">
+                    <h2>Disciplinas de graduação: </h2>
+                    <ul>
+                        <li>
+                            <a href="https://www.gta.ufrj.br/ensino/EEL170/index.html">EEL 170 - Computação 1</a>
+                        </li>
+                        <li>
+                            <a href="https://www.gta.ufrj.br/ensino/EEL280/index.html">EEL 280 - Circuitos Lógicos</a>
+                        </li>
+                        <li>
+                            <a href="https://www.gta.ufrj.br/ensino/EEL480/index.html">EEL 480 - Sistemas Digitais</a>
+                        </li>
+                        <li>
+                            <a href="https://www.gta.ufrj.br/ensino/EEL580/index.html">EEL 580 - Arquitetura de Computadores</a>
+                        </li>
+                        <li>
+                            <a href="https://www.gta.ufrj.br/ensino/EEL840/index.html">EEL 840 - Tópicos Especiais em Sistemas de Comunicações</a>
+                        </li>
+                        <li>
+                            <a href="https://www.gta.ufrj.br/ensino/eel878/index.html">EEL 878 - Redes de Computadores I</a>
+                        </li>
+                        <li>
+                            <a href="https://www.gta.ufrj.br/ensino/eel879/index.html">EEL 879 - Redes de Computadores II</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="posgraduacao">
+                    <h2>Disciplinas de pós-graduação: </h2>
+                    <ul>
+                        <li classe="teste">
+                            <a href="https://www.gta.ufrj.br/ensino/cpe728/index.html">CPE 728 - Autonomia e Segurança em Redes de Computadores</a>
+                        </li>
+                        <li>
+                            <a href="https://www.gta.ufrj.br/~rezende/cursos/coe727/index.html">COE 727 - Interconexão de Redes</a>
+                        </li>
+                        <li>
+                            CPE 717 - Tópicos Especiais em Redes de Computadores <a href="https://www.gta.ufrj.br/ensino/cpe717-2006/index.html">2006</a> <a href="https://www.gta.ufrj.br/ensino/cpe717-2011/index.htm">2011</a>
+                        </li>
+                        <li>
+                            <a href="https://www.gta.ufrj.br/ensino/CPE825/cpe825.html">CPE 825 - Roteamento em Redes de Computadores</a>
+                        </li>
+                        <li>
+                            <a href="https://www.gta.ufrj.br/ensino/COE728/COE728.htm">COE 728 - Redes de Computadores</a>
+                        </li>
+                        <li>
+                            COE 729 - Arquiteturas e Protocolos de Comunicação
+                        </li>
+                        <li>
+                            <a href="https://www.gta.ufrj.br/ensino/COE794/COE794.html">COE 794 - Seminário em Teleinformática</a>
+                        </li>
+                        <li>
+                            COE 795 - Tópicos Especiais em Sistemas Concorrentes
+                        </li>
+                        <li>
+                            <a href="https://www.gta.ufrj.br/~rezende/cursos/coe889/index.html">COE 889 - Tópicos Especiais em Integração de Serviços na Internet</a>
+                        </li>
+                        <li>
+                            <a href="https://www.gta.ufrj.br/~rezende/cursos/cpe710/index.html">CPE 710 - Redes Móveis</a>
+                        </li>
+                        <li>
+                            <a href="https://www.gta.ufrj.br/ensino/CPE758/cpe758.html">CPE 758 - Tópicos Especiais em Virtualização de Redes de Computadores</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div class="testeSite">
+    <!-- Formulário -->
+    <div class="row">
+        <div class="col">
+            <div class="formulario">
+                <figure id="tituloFormulario">
+                    <figcaption>Inscrições ao Mestrado/Doutorado</figcaption>
+                    <img src="images/information.png" alt="izinho de informação">
+                </figure>
+                <hr>
+                <div class="dadosPessoais">
+                    <img src="images/usuario.png" alt="logo de usuário">
+
+                </div>
+                <hr>
+                <div class="dadosResidencia">
+                    <img src="images/localizacao.png" alt="símbolo de localização (GPS)">
+
+                </div>
+                    
+                <hr>
+                <div class="dadosContato">
+                    <img src="images/telefone.png" alt="símbolo de telefone">
+
+                </div>
+                    
+                <hr>
+                <div class="dadosEnsino">
+                    <img src="images/quepe.png" alt="ícone quepe de formação">
+
+                </div>
+                <hr>
+                <div class="botaoEnviar">
+                    <img src="images/carta.png" alt="Símbolo de carta">
+
+                </div>
+            </div>
+        </div>
+    </div>
 
     </div>
+
     
-<footer class="col">
+    <!-- Rodapé da página -->
+    <footer class="col">
     <div class="centralizado">
         <h3 class="titulo2">GTA-UFRJ</h3>
         <p>2020</p><br>
-        <h3 class="titulo2">SEMINARIOS</h3>
+        <h3 class="titulo2">HOME</h3>
     </div>
-</footer>
+    </footer>
 </body>
 </html>
