@@ -1,0 +1,4 @@
+1. 
+• O que foi feito: Adaptação da interface-seminario
+• Explicação: Aproveitou-se que a interface-seminario é muito parecida com a interface-home, então
+todos os códigos CSS e o esqueleto HTML foi copiado e adaptado para interface-home.

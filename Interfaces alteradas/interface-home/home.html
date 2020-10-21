@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFRJ-GTA - Home</title>
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/flexboxContainer.css">
+    <link rel="stylesheet" href="css/responsiveMenu.css">
+    <link rel="stylesheet" href="css/menuHeader.css">
+</head>
+<body>
+
+    <div class="container">
+
+    <!-- Header -->
+    <header class="row">
+        <div class="col">
+            <div class="flexbox-container">
+              <img class="logo flexbox-item" src="images/minerva_transparente.gif" alt="logo UFRJ">
+              <h1 class="flexbox-item titulo1">UFRJ-GTA</h1>
+              <a class="push home-button" href="../interface-home/Ensino.html">Home</a>
+            </div>
+            <hr>
+            
+            <div class="segundaDiv">
+                <img src="images/logo2.jpg" alt="logo do site">
+
+                <div class="menuHeader">
+                    <div class="elementoMenu" id="ee">
+                        <p>EE</p>
+                    </div>
+                    <div class="elementoMenu" id="coppe">
+                        <p>COPPE</p>
+                    </div>
+                    <div class="elementoMenu" id="ufrj">
+                        <p>URFJ</p>
+                    </div>
+                </div>
+
+                <!-- Script básico para tornar os botões clicáveis -->
+                <script>
+                    botao1 = document.getElementById('ee')
+                    botao2 = document.getElementById('coppe')
+                    botao3 = document.getElementById('ufrj')
+
+                    botao1.onclick = abrirJanela1
+                    botao2.onclick = abrirJanela2
+                    botao3.onclick = abrirJanela3
+
+                    function abrirJanela1(){
+                        window.open("http://www.poli.ufrj.br/", "_blank")
+                    }
+
+                    function abrirJanela2(){
+                        window.open("https://coppe.ufrj.br/", "_blank")
+                    }
+
+                    function abrirJanela3(){
+                        window.open("https://ufrj.br/", "_blank")
+                    }
+                </script>
+                
+
+            </div>
+            
+        </div>
+    </header>
+
+    <!-- MENU NAVEGAÇÃO DENTRO DO SITE -->
+    <div class="row">
+        <div class="col">
+            
+            <div class="nav">
+                <!-- Ícone "hamburguer" pro menu -->
+                <label for="toggle">Seminários &#9776;</label>
+                <!-- Esse checkbox é usado para deixar o menu clicável apenas com html-->
+                <input type="checkbox" id="toggle"/>
+                <div class="menu">
+                    <a href="#"><span>Home</span></a>
+                    <a href="https://www.gta.ufrj.br/equipe/">Equipe</a>
+                    <a href="https://www.gta.ufrj.br/pesquisa/">Pesquisa</a>
+                    <a href="https://www.gta.ufrj.br/publicacoes/">Publicações</a>
+                    <a href="../interface-seminario/seminario.html">Seminários</a>
+                    <a href="https://www.gta.ufrj.br/projetos">Projetos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Explicação de ensino -->
+    <div class="row">
+        <div class="col">
+            <div id="explicacaoEnsino">
+                <h1 class="titulo2">ENSINO</h1>
+                <p>
+                    Os professores do Grupo de Teleinformática e Automação (GTA) ministram
+                     disciplinas na Pós-Graduação do Programa de Engenharia Elétrica da COPPE
+                      e na graduação do Departamento de Engenharia Eletrônica e de Computação
+                       da Escola Politécnica. Na pós-graduação foram responsáveis pela pela
+                        criação da sub-área de Teleinformática e Automação do Programa de
+                         Engenharia Elétrica que concentra as teses de mestrado e doutorado
+                          em redes de computadores. Na graduação foram responsáveis pela criação
+                           de diversas disciplinas associadas a redes de computadores.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!-- Disciplinas -->
+    <div id="disciplinas">
+        <div id="graducao">
+
+        </div>
+        <div id="posgraducao">
+
+        </div>
+    </div>
+
+    <div class="testeSite">
+
+    </div>
+    
+<footer class="col">
+    <div class="centralizado">
+        <h3 class="titulo2">GTA-UFRJ</h3>
+        <p>2020</p><br>
+        <h3 class="titulo2">SEMINARIOS</h3>
+    </div>
+</footer>
+</body>
+</html>
