@@ -3,12 +3,40 @@
 
 /* Segunda div principal do Header*/
 div.segundaDiv{
-    height: 900px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 div.segundaDiv img{
-    margin: 0px;
+    margin: 1%;
     padding: 0px;
-    width: 50px;
+    width: 30%;
     resize: none;
+}
+div.menuHeader{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    margin-right: 3%;
+}
+
+div.elementoMenu{
+    background-color: red;
+    width: 70px;
+    height: 40px;
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+    margin-right: 5px;
+
+    border: 2px solid black;
+    border-bottom: 1px solid black;
+
+    /* Faz o cursor do mouse se tornar clicável */
+    cursor: pointer;
+}
+
+div.elementoMenu p{
+    align-self: flex-end;
 }
