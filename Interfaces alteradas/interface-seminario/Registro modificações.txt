@@ -1,0 +1,31 @@
+1. 
+• O que foi feito: Adaptação da interface-trabalho
+• Explicação: Para aproveitar CSS já feitos e manter um padrão de design, foi dado ctrl c ctrl v na
+interface-trabalho e foi feito uma adaptação para a interface-seminários
+
+2. 
+• O que foi feito: Adaptação do menu navegação
+• Explicação: Importando as configurações do template "responsiveMenu1" e adaptando para interface
+principal do site
+
+3.
+• O que foi feito: Criação de um elemento para armazenar os seminários e manter a flexibilidade
+• Explicação: Foi escolhido uma ul (lista não numerada) para armazenar os seminários, dentro de
+cada li (list item) foi adicionado uma div adaptada para caber as informações de um seminário
+
+4.
+• O que foi feito: Criação do menu dentro do Header
+• Explicação: Esse menu troca de sites (acessa o site principal da ufrj por exemplo)
+
+5.
+• O que foi feito: Criação de script JS dentro do Header
+• Explicação: Esse script serve para deixar os botões do menu dentro do Header clicáveis
+
+6.
+• O que foi feito: Adição de todos seminários dentro da lista
+• Explicação: Fui copiando as informações de um por um para adequar dentro ds caixas de seminário
+que criei
+
+7.
+• O que foi feito: Arrumação das cores da interface
+• Explicação: Foi escolhido a cor azul para padronizar um design consistente em todas interfaces
