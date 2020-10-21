@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="css/responsiveMenu.css">
     <link rel="stylesheet" href="css/menuHeader.css">
     <link rel="stylesheet" href="css/formulario.css">
+    <link rel="stylesheet" href="css/caixa.css">
+    <!-- CSS EXTERNO PARA ÍCONES (é uma "fonte de ícones") -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+
 </head>
 <body>
 
@@ -189,33 +194,191 @@
                     <img src="images/information.png" alt="izinho de informação">
                 </figure>
                 <hr>
-                <div class="dadosPessoais">
+                <div class="coletagemDados">
                     <img src="images/usuario.png" alt="logo de usuário">
+                    <div class="caixasDados">
+                        <!-- CAIXA NOME COMPLETO -->
+                        <div class="entrada">
+                            <p>Nome Completo</p>
+                            <input type="text" id="inNome" placeholder="Ex. João dos Santos">
+                        </div>
+                        <!-- CAIXA DATA NASCIMENTO -->
+                        <div class="entrada">
+                            <p>Data Nascimento</p>
+                            <input type="date" id="inDataNascimento" placeholder="123.456.789-00">
+                        </div>
+                        <!-- CAIXA CPF -->
+                        <div class="entrada">
+                            <p>CPF</p>
+                            <input type="text" id="inCpf" placeholder="123.456.789-00">
+                        </div>
+                    </div>
+                    
+                    
 
                 </div>
                 <hr>
-                <div class="dadosResidencia">
+                <div class="coletagemDados">
                     <img src="images/localizacao.png" alt="símbolo de localização (GPS)">
+                    <div class="caixasDados">
+                        <!-- CAIXA ESTADO -->
+                        <div class="entrada">
+                            <p>Estado</p>
+                            <input type="text" id="inEstado" placeholder="Ex. SP">
+                        </div>
+                        <!-- CAIXA CIDADE -->
+                        <div class="entrada">
+                            <p>Cidade</p>
+                            <input type="text" id="inCidade" placeholder="Ex. Sorocaba">
+                        </div>
+                        <!-- CAIXA CEP -->
+                        <div class="entrada">
+                            <p>CEP</p>
+                            <input type="text" id="inCep" placeholder="111-22222">
+                        </div>
+                    </div>
 
                 </div>
                     
                 <hr>
-                <div class="dadosContato">
+                <div class="coletagemDados">
                     <img src="images/telefone.png" alt="símbolo de telefone">
-
+                    <div class="caixasDados">
+                        <!-- CAIXA TELEFONE -->
+                        <div class="entrada">
+                            <p>Telefone</p>
+                            <input type="text" id="inTelefone" placeholder="(11) 2495-9718">
+                        </div>
+                        <!-- CAIXA EMAIL -->
+                        <div class="entrada">
+                            <p>Email</p>
+                            <input type="text" id="inEmail" placeholder="example@gmail.com">
+                        </div>
+                    </div>
                 </div>
                     
                 <hr>
-                <div class="dadosEnsino">
+                <div class="coletagemDados">
                     <img src="images/quepe.png" alt="ícone quepe de formação">
+                    <div class="caixasDados">
+                        <!-- CAIXA DIPLOMA -->
+                        <div class="entrada">
+                            <p>Bacharel ou Tecnólogo</p>
+                            <input type="text" id="inDiploma" placeholder="Ex. Engenharia Civil">
+                        </div>
+                        <!-- CAIXA INSTITUIÇÃO -->
+                        <div class="entrada">
+                            <p>Instituição</p>
+                            <input type="text" id="inInstituicao" placeholder="Ex. IFSP">
+                        </div>
+                    </div>
 
                 </div>
                 <hr>
-                <div class="botaoEnviar">
+                <div class="coletagemDados">
                     <img src="images/carta.png" alt="Símbolo de carta">
-
+                    <div class="caixasDados">
+                        <!-- BOTÃO SUBMIT -->
+                        <div class="entrada">
+                            <input type="submit" value="ENVIAR" id="botaoEnviar">
+                        </div>
+                    </div>
                 </div>
             </div>
+            
+            <!-- LÓGICA DO BOTÃO -->
+            <script>
+                var botao = document.getElementById('botaoEnviar')
+                botao.onclick = processarInformacao
+
+                function processarInformacao(){
+                    /* Seleciona os botões input */
+                    caixaNome = document.getElementById('inNome')
+                    caixaDataNascimento = document.getElementById('inDataNascimento')
+                    caixaCpf = document.getElementById('inCpf')
+                    caixaEstado = document.getElementById('inEstado')
+                    caixaCidade = document.getElementById('inCidade')
+                    caixaCep = document.getElementById('inCep')
+                    caixaTelefone = document.getElementById('inTelefone')
+                    caixaEmail = document.getElementById('inEmail')
+                    caixaDiploma = document.getElementById('inDiploma')
+                    caixaInstituicao = document.getElementById('inInstituicao')
+
+                    /* Seleciona as variáveis */
+                    var nome = caixaNome.value
+                    var dataNascimento = caixaDataNascimento.value
+                    var cpf = caixaCpf.value
+                    var estado = caixaEstado.value
+                    var cidade = caixaCidade.value
+                    var cep = caixaCep.value
+                    var telefone = caixaTelefone.value
+                    var email = caixaEmail.value
+                    var diploma = caixaDiploma.value
+                    var instituicao = caixaInstituicao.value
+
+                    /* Variável analisadora de erro */
+                    var erro = false
+
+                    
+                    if (nome == ""){
+                        caixaNome.focus()
+                        window.alert('Por favor, insira o seu nome.')
+                        erro = true
+                    }
+                    else if (dataNascimento == ""){
+                        caixaDataNascimento.focus()
+                        window.alert('Por favor, insira a sua data de nascimento.')
+                        erro = true
+                    }
+                    else if (cpf == ""){
+                        caixaCpf.focus()
+                        window.alert('Por favor, insira o seu CPF.')
+                        erro = true
+                    }
+                    else if (estado == ""){
+                        caixaEstado.focus()
+                        window.alert('Por favor, insira o estado que você mora.')
+                        erro = true
+                    }
+                    else if (cidade == ""){
+                        caixaCidade.focus()
+                        window.alert('Por favor, insira a cidade que você mora.')
+                        erro = true
+                    }
+                    else if (cep == ""){
+                        caixaCep.focus()
+                        window.alert('Por favor, insira o seu CEP.')
+                        erro = true
+                    }
+                    else  if (telefone == ""){
+                        caixaTelefone.focus()
+                        window.alert('Por favor, insira o seu telefone para contato.')
+                        erro = true
+                    }
+                    else if (email == ""){
+                        caixaEmail.focus()
+                        window.alert('Por favor, insira o seu email.')
+                        erro = true
+                    }
+                    else if (diploma == ""){
+                        caixaDiploma.focus()
+                        window.alert('Por favor, insira o seu diploma (bacharel ou tecnólogo).')
+                        erro = true
+                    }
+                    else  if (instituicao == ""){
+                        caixaInstituicao.focus()
+                        window.alert('Por favor, a instituição que você ganhou o diploma.')
+                        erro = true
+                    }
+
+
+                    if (erro == false){
+                        window.alert('Dados enviados com sucesso!')
+                        document.location.reload(true);
+                    }
+                        
+                }
+            </script>
         </div>
     </div>
 
