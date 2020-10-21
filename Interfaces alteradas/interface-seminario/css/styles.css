@@ -80,6 +80,12 @@ header h1{
     color: #bdd6ff;
 }
 
+header hr{ /* Linha de divisão */
+    background-color: #bdd6ff;
+    border: none;
+    height: 1px;
+}
+
 footer{
     background: #2a4269;
     padding: 5px;    

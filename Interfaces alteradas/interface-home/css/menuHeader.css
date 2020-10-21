@@ -1,0 +1,42 @@
+/* Esse CSS altera a div de baixo do header, onde tem o logo
+   e o menu para outros sites */
+
+/* Segunda div principal do Header*/
+div.segundaDiv{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.segundaDiv img{
+    margin: 1%;
+    padding: 0px;
+    width: 30%;
+    resize: none;
+}
+div.menuHeader{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    margin-right: 3%;
+}
+
+div.elementoMenu{
+    background-color: #6f7e9788;
+    width: 70px;
+    height: 40px;
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+    margin-right: 5px;
+
+    border: 2px solid black;
+    border-bottom: 1px solid black;
+
+    /* Faz o cursor do mouse se tornar clicável */
+    cursor: pointer;
+}
+
+div.elementoMenu p{
+    align-self: flex-end;
+}

@@ -1,5 +1,7 @@
-/* reset do padding e margin básico */
-body * {
+/* Esse CSS é o grid padrão do site */
+
+/* reset básico */
+* {
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
@@ -13,9 +15,7 @@ body * {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding: 5px;
-    border: 0;
-    background-color: #dcefff;
+    padding: 0 5px;
     
 }
     @media (min-width: 1170px){ /* Criado para responder com resoluções maiores que 1170px*/
@@ -30,7 +30,7 @@ body * {
     margin-left: -5px;
     margin-right: -5px;
 }
-    /* Garante que o conteúdo da linha não ultrapasse o tamanho da mesma*/
+    /* Garante que o conteúdo da linha não ultrapasse o tamanho da mesma min 10:30*/
     .row:before,
     .row:after {
         content: "";
@@ -77,16 +77,17 @@ body * {
     }
 
     /* Sidebar */
-    @media(min-width: 900px){ /* Media Quarry para computadores */
+    @media(min-width: 992px){ /* Media Quarry para computadores */
         .col-content {
-            width: 77%;
+            width: 60%;
         }
 
         .col-sidebar {
-            width: 23%;
+            width: 40%;
         }
     }
     
+
 
 /* USAR APENAS PARA DEMONSTRAÇÃO */
 .teste{
@@ -97,5 +98,5 @@ body * {
     color: #fff;
 }
 .big {
-    height: 90px;
+    height: 50px;
 }

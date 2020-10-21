@@ -1,11 +1,12 @@
+/* Esse é o CSS principal que altera qualquer outro elemento que
+   não é alterado nos outros CSS                                    */
+
 html {
     font-family: "helvetica neue", sans-serif;
 }
 
 body{
-    margin: 0;
-    padding: 0;
-    border: 0;
+    background-color: #fff;
 }
 
 /* Imagens */
@@ -29,50 +30,14 @@ img.proximaPag{
 .titulo1{
     align-self: center;
     font-family: Arial, Helvetica, sans-serif;
-    color: #bdd6ff;
-}
-.titulo2{
-    align-self: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #bdd6ff;
-}
-.titulo3{
-    align-self: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    color: #bdd6ff;
-}
-.titulo4{
-    align-self: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: #2a4269;
 }
     @media(max-width: 900px){ /* Device: tablet */
         .titulo1{
             font-size: 170%;
         }
-        .titulo2{
-            font-size: 100%;
-        }
-        .titulo3{
-            font-size: 100%;
-        }
-        .titulo4{
-            font-size: 170%;
-        }
     }
     @media(max-width: 530px){ /* Device: mobile */
         .titulo1{
-            font-size: 130%;
-        }
-        .titulo2{
-            font-size: 90%;
-        }
-        .titulo3{
-            font-size: 90%;
-        }
-        .titulo4{
             font-size: 130%;
         }
     }
@@ -105,8 +70,8 @@ header {
     margin-left: 0px !important;
     margin-right: 0px !important;
     padding: 2px;
+    padding-bottom: 0;
     border: 0px;
-    margin-bottom: 30px;
     background-color: #2a4269;
     color:#f1f1f1;
 }
@@ -127,6 +92,7 @@ footer{
     margin: 2px 0;
     color: #aad2ff;
     height: 200px;
+    margin-top: 30px;
 
     position: relative;
     text-align: center;
@@ -134,14 +100,25 @@ footer{
     align-items: center;
 }
 
-#proximaPag{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: fit-content;
-    margin: auto;
-    cursor: pointer;
+#explicacaoEnsino{
+    /*display: flex;*/
+    height: auto;
+    background-color: #2a4269;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#explicacaoEnsino h1{
+    color: #bdd6ff;
+    
+}
+
+#explicacaoEnsino p{
+    color: rgb(244, 248, 255);
+}
+
+.testeSite{
+    height: 1200px;
 }
 
 /* Posicionamentos */
