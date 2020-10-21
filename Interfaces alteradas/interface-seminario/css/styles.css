@@ -70,6 +70,7 @@ header {
     margin-left: 0px !important;
     margin-right: 0px !important;
     padding: 2px;
+    padding-bottom: 0;
     border: 0px;
     background-color: #2a4269;
     color:#f1f1f1;
@@ -107,6 +108,10 @@ footer{
 }
 
 /* SEMINÁRIOS */
+ul#listaSeminarios{
+    list-style-type: none;
+}
+
 div.seminario{
     background-color: red;
     margin-left: auto;
